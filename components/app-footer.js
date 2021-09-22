@@ -9,7 +9,10 @@ export default class AppFooter extends LitElement{
         };
 }
     render(){
-        return html `<div class="jumbotron jumbotron-fluid">
+        return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <footer class="foot mt-1">
                 <div class="row">
@@ -22,14 +25,15 @@ export default class AppFooter extends LitElement{
                     </div>
                     <!-- <div class="col-md-1"></div> -->
                     <div class="col-md-4">
-                        <h4 class="hea">${this.compData.experience.mobile}</h4>
+                        <h6 class="hea">${this.compData.experience.mobile}</h6>
                         <br>
                         <app-footer-experience .compData=${this.compData.experience}></app-footer-experience>
                         
                          
                     </div>
                     <div class="col-md-4">
-                        <h6 class="hea">${this.compData.shopping.shopHeader}</h6>
+                        <h4 class="hea">${this.compData.shopping.shopHeader}</h4>
+                        <br>
                         <app-footer-shopping .compData=${this.compData.shopping}></app-footer-shopping>
                     </div>
                 </div>

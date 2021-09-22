@@ -4,6 +4,7 @@ export default class AppFooterList extends LitElement{
         return{
             compData : Object
         }
+    
     }
     render(){
         return html `<h4 class="hea">${this.compData.online.label}</h4>

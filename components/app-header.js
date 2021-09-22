@@ -1,47 +1,52 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html,css, LitElement } from 'https://unpkg.com/lit-element?module';
 export default class AppHeader extends LitElement{
-    // static get styles(){
-    //     return css `.f1
-    //     {
-    //         font-size: medium;
-    //         color: black;
-    //         font-weight: bold;
-    //     }
+    static get styles(){
+        return css`.f1
+        {
+            font-size: medium;
+            color: black;
+            font-weight: bold;
+        }
         
-    //     .topnav .search-container {
-    //       float: right;
-    //     }
+        .topnav .search-container {
+          float: right;
+        }
         
-    //     .topnav input[type=text] {
-    //       padding: 6px;
-    //       margin-top: 8px;
-    //       font-size: 17px;
-    //       border: none;
-    //     }
+        .topnav input[type=text] {
+          padding: 6px;
+          margin-top: 8px;
+          font-size: 17px;
+          border: none;
+        }
         
-    //     .topnav .search-container button {
-    //       float: right;
-    //       padding: 6px 10px;
-    //       margin-top: 8px;
-    //       margin-right: 16px;
-    //       background: #ddd;
-    //       font-size: 17px;
-    //       border: none;
-    //       cursor: pointer;
-    //     }
+        .topnav .search-container button {
+          float: right;
+          padding: 6px 10px;
+          margin-top: 8px;
+          margin-right: 16px;
+          background: #ddd;
+          font-size: 17px;
+          border: none;
+          cursor: pointer;
+        }
         
-    //     .topnav .search-container button:hover {
-    //       background: #ccc;
-    //     };
-    //     `
-    // }
+        .topnav .search-container button:hover {
+          background: #ccc;
+        };
+        `
+    }
+    
     static get properties(){
             return{
                 compData : Object,
             };
     }
     render(){
-        return html `<header>
+        return html ` <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
+        <header>
         <div class="row">
             <nav class="navbar navbar-expand-md bg-light fixed-top">
                 <div class="col-md-1">
@@ -67,7 +72,7 @@ export default class AppHeader extends LitElement{
                         <li class="nav-item">
                             <a class="nav-link f1" href="#">OFFERS</a>
                         </li> -->
-                        ${this.compData.navigation.map((nav) => (html`<li><a href="${nav.link}">${nav.label}</a></li>`))}
+                        ${this.compData.navigation.map((nav) => (html`<li><a href="${nav.link}">${nav.label}</a></li>&nbsp;&nbsp;&nbsp;&nbsp;`))}
                   </ul>
                 </div>
                 <div class="col-md-4">

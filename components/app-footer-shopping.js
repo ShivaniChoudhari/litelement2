@@ -1,5 +1,12 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html, css, LitElement } from 'https://unpkg.com/lit-element?module';
 export default class AppFooterShopping extends LitElement{
+    static get styles(){
+        return css `.para
+        {
+            color: red;
+            font-size: small;
+        } `
+    }
     static get properties(){
         return{
             compData : Object

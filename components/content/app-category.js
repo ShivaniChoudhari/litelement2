@@ -9,7 +9,10 @@ export default class AppCategory extends LitElement{
     }
   }
     render(){
-        return html `<div class="container-fluid">
+        return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <div class="container-fluid">
         <h1>${this.category.title}</h1>
         <br><br>
         
