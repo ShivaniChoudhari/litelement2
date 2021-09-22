@@ -1,0 +1,240 @@
+{
+    "header" : {
+        "brand" : {
+            "brandLogo": "./myntra.jfif"
+        },
+        "navigation" : [
+            {
+                "label" : "Men",
+                "link" : "/men"
+            },
+            {
+                "label" : "Women",
+                "link" : "/women"
+            },
+            {
+                "label" : "Kids",
+                "link" : "/kids"
+            },
+            {
+                "label" : "HomeandLiving",
+                "link" : "/homeandliving"
+            },
+            {
+                "label" : "Offers",
+                "link" : "/offers"
+            }
+
+        ]
+
+        
+    },
+    "content" : {
+        "wideimg" : "./imgb.jpg",
+        "slider" : [
+            {
+                "slider1" : "./myntra1.png"
+            },
+            {
+                "slider2" : "./myntra2.jpg"
+            }
+        ],
+         
+        "categories" : [
+            
+
+            {
+                "title" : "Women",
+                "products" : 
+                
+                [
+                    {
+                        "image" : "./kurta.webp",
+                        "header" : "Kurtas and kurta sets"
+                    },
+                    {
+                        "image" : "./saree.jpg",
+                        "header" : "Sarees"
+                    },
+                    {
+                        "image" : "./dress.jpg",
+                        "header" : "Dresses"
+                    },
+                    {
+                        "image" : "./fnh.jpeg",
+                        "header" : "Flats and heels"
+                    },
+                    {
+                        "image" : "./handbad.jpg",
+                        "header" : "Handbag"
+                    },
+                    {
+                        "image" : "./shorts.jfif",
+                        "header" : "Shorts"
+                    }
+                ]
+            },
+
+            {
+                "title" : "Men",
+                "products" :
+                [
+                    {
+                        "image" : "./shirts.webp",
+                        "header" : "Shirts"
+                    },
+                    {
+                        "image" : "./tshirts.jpg",
+                        "header" : "Tshirts"
+                    },
+                    {
+                        "image" : "./jeans.jpg",
+                        "header" : "Jeans"
+                    },
+                    {
+                        "image" : "./snt.jpg",
+                        "header" : "Shorts and Trousers"
+                    },
+                    {
+                        "image" : "./cashoes.webp",
+                        "header" : "Casual Shoes"
+                    },
+                    {
+                        "image" : "./caps.jpeg",
+                        "header" : "Caps"
+                    }
+                ]
+            },
+            {
+                "title" : "EXPLORE TOP BRANDS",
+                "products" :
+                [
+                    {
+                        "image" : "./nike.jpeg",
+                        "header" : "Nike",
+                        "offer" : "Fitness collection"
+                    },
+                    {
+                        "image" : "./levis.jpg",
+                        "header" : "Levi's",
+                        "offer" : "FLat 50% Off"
+                    },
+                    {
+                        "image" : "./hrx.jpg",
+                        "header" : "HRX",
+                        "offer" : "30-70% Off"
+                    },
+                    {
+                        "image" : "./hnmm.jpg",
+                        "header" : "H&M",
+                        "offer" : "Starting at Rs. 399!"
+                    },
+                    {
+                        "image" : "./puma.jpg",
+                        "header" : "Puma",
+                        "offer" : "Upto 40% Off"
+                    },
+                    {
+                        "image" : "./adid.jpg",
+                        "header" : "Adidas",
+                        "offer" : "Starting at Rs. 499"
+                    },
+                    {
+                        "image" : "./zara.jpg",
+                        "header" : "Zara",
+                        "offer" : "Flat 20% Off"
+                
+                    },
+                    {
+                        "image" : "./fila.png",
+                        "header" : "Fila",
+                        "offer" : "Upto 40% Off"
+                    }
+                ]
+            }
+            
+        
+        ]
+
+       
+            
+
+            
+            
+        
+        
+
+
+    },
+    
+    "footer" : {
+        "first" : {
+            "online" : {
+                "label" : "Online Shopping"
+            },
+            "navigation" :[
+                {
+                    "label" : "Men",
+                    "link" : "/men"
+                },
+                {
+                    "label" : "Women",
+                    "link" : "/women"
+                },
+                {
+                    "label" : "Kids",
+                    "link" : "/kids"
+                },
+                {
+                    "label" : "Home and Living",
+                    "link" : "/homeandliving"
+                },
+                {
+                    "label" : "Offers",
+                    "link" : "/offers"
+                }
+            ]
+        },
+        "second" : {
+            "online" : {
+                "label" : "Useful Links"
+            },
+            "navigation" :[
+                {
+                    "label" : "Contact US",
+                    "link" : "/contactus"
+                },
+                {
+                    "label" : "FAQs",
+                    "link" : "/faqs"
+                },
+                {
+                    "label" : "T&C",
+                    "link" : "/tnc"
+                },
+                {
+                    "label" : "Terms of Use",
+                    "link" : "/termsofuse"
+                },
+                {
+                    "label" : "Track Order",
+                    "link" : "/trackorder"
+                },
+                {
+                    "label" : "Shipping",
+                    "link" : "/shipping"
+                }
+            ]
+        },
+        "experience" : {
+            "mobile" : "EXPERIENCE MYNTRA APP ON MOBILE",
+            "img1" : "./goplay.png",
+            "img2" : "./appst.png"
+        },
+        "shopping" : {
+            "ShopHeader" : "GET YOUR SHOPPING ON",
+            "paraDesc1" : "Visit Myntra and transform your closet with garments for every occasion. We bring you all the top brands at your fingertips, with the best discounts and a wide selection to pick from. So log in to Myntra today and get shopping on-the-go!",
+            "paraDesc2" : "Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions."
+        }
+    }
+}     
