@@ -1,4 +1,4 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html, LitElement } from 'lit-element';
 import './app-top.js'
 export default class AppBrands extends LitElement{
   static get properties(){

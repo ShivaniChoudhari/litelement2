@@ -1,5 +1,5 @@
 import { html } from "lit-element";
-import '../components/app-nav-item';
+import '../assets/js/components/app-nav-item';
 
 export default {
   title: 'Components/NavItem',

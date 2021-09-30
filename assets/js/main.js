@@ -1,4 +1,4 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html, LitElement } from 'lit-element';
 // class MyElement extends LitElement {
 //     render() {
 //         return html`<h1>Hello ${this.message}!<my-dummy></my-dummy></h1>`;

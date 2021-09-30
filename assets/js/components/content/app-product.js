@@ -1,4 +1,4 @@
-import { html,css, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html,css, LitElement } from 'lit-element';
 export default class AppProduct extends LitElement{
     static get styles(){
         return css`.card-text

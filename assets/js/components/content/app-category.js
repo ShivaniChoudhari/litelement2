@@ -1,4 +1,4 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html, LitElement } from 'lit-element';
 import './app-product.js';
 // import './app-men.js';
 export default class AppCategory extends LitElement{
