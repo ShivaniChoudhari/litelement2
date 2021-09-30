@@ -138,18 +138,8 @@
                         "image" : "./adid.jpg",
                         "header" : "Adidas",
                         "offer" : "Starting at Rs. 499"
-                    },
-                    {
-                        "image" : "./zara.jpg",
-                        "header" : "Zara",
-                        "offer" : "Flat 20% Off"
-                
-                    },
-                    {
-                        "image" : "./fila.png",
-                        "header" : "Fila",
-                        "offer" : "Upto 40% Off"
                     }
+                    
                 ]
             }
             
@@ -238,3 +228,7 @@
         }
     }
 }     
+
+
+
+

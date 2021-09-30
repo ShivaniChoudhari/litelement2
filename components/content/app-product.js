@@ -11,10 +11,17 @@ export default class AppProduct extends LitElement{
         
         }
         .container-fluid {
-            
-            display: flex;
+
+            float:left;
+
+            display: -webkit-flex;
+
             flex-wrap: nowrap;
+
             flex-direction : row;
+
+            margin-left:10px;
+
         }
         
         
@@ -27,14 +34,14 @@ export default class AppProduct extends LitElement{
         }
     }
     render(){
-        return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        return html `
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <div class="container-fluid">
+        <div class="container-fluid ">
         
-        <!-- <div class="row"> -->
-            <!-- <div class="col-md-2">   -->
-            <div class="card" style="width:100%; height:300px">
+        <div class="row">
+            <div class="col-md-2">  
+                <div class="card" style="width:240px; height:300px">
                     <a href="#"><img class="card-img-top" src="${this.product.image}" class="rounded-circle" alt="Card image" style="width:100%; height:200px"></a>
                     <div class="card-body">
                       <h4 class="card-title" style="text-align: center;">${this.product.header}</h4>
@@ -43,8 +50,10 @@ export default class AppProduct extends LitElement{
                     </div>
                 </div>
             </div>
+            <br><br>
         </div>
     </div>    
+    
         `
         
     }

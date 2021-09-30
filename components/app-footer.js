@@ -1,8 +1,9 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html,css, LitElement } from 'https://unpkg.com/lit-element?module';
 import "./app-footer-list.js";
 import "./app-footer-experience.js";
 import "./app-footer-shopping.js";
 export default class AppFooter extends LitElement{
+    
     static get properties(){
         return{
             compData : Object,
@@ -12,7 +13,7 @@ export default class AppFooter extends LitElement{
         return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
         <div class="container">
             <footer class="foot mt-1">
                 <div class="row">
