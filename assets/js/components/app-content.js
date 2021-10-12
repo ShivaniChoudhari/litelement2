@@ -1,4 +1,4 @@
-import { html, LitElement } from 'lit-element';
+import { html, LitElement } from 'https://unpkg.com/lit-element?module';
 import './content/app-wideimg.js';
 import './content/app-slider.js';
 import './content/app-category.js';

@@ -1,4 +1,4 @@
-import { html,css, LitElement } from 'lit-element';
+import { html,css, LitElement } from 'https://unpkg.com/lit-element?module';
 export default class AppHeader extends LitElement{
     static get styles(){
         return css`.f1

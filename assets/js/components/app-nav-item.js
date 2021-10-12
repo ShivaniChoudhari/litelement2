@@ -1,4 +1,4 @@
-import { html, LitElement } from "lit-element";
+import { html, LitElement } from "https://unpkg.com/lit-element?module";
 
 class AppNavItem extends LitElement {
   static get properties() {
