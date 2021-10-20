@@ -1,4 +1,4 @@
-import { html, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html, LitElement } from 'lit-element';
 export default class AppFooterList extends LitElement{
     static get properties(){
         return{

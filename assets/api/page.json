@@ -41,28 +41,47 @@
                 "title": "Women",
                 "products": [
                     {
-                        "image": "./assets/img/kurta.webp",
-                        "header": "Kurtas and kurta sets"
+                        "image": "./assets/img/biba.jpg",
+                        "header": "Biba",
+                        "description" : "Printed Khadi dress",
+                        "price" : "₹2500",
+                        "offer" : "FLat 50% Off"
+
                     },
                     {
                         "image": "./assets/img/saree.jpg",
-                        "header": "Sarees"
+                        "header": "Kalini",
+                        "description" : "Printed Kurta with Trousers",
+                        "price" : "₹1999",
+                        "offer" : "FLat 50% Off"
                     },
                     {
                         "image": "./assets/img/dress.jpg",
-                        "header": "Dresses"
+                        "header": "Athena",
+                        "description" : "Women Printed Wrap Dress",
+                        "price" : "₹1200",
+                        "offer" : "FLat 40% Off"
                     },
                     {
-                        "image": "./assets/img/fnh.jpeg",
-                        "header": "Flats and heels"
-                    },
-                    {
-                        "image": "./assets/img/handbad.jpg",
-                        "header": "Handbag"
+                        "image": "./assets/img/women_sandals.jpg",
+                        "header": "Roadster",
+                        "description" : "SWomen Solid Padded Jacket",
+                        "price" : "₹3499",
+                        "offer" : "FLat 60% Off"
                     },
                     {
                         "image": "./assets/img/shorts.jfif",
-                        "header": "Shorts"
+                        "header": "Shezone",
+                        "description" : "Solid Shoes",
+                        "price" : "₹2500",
+                        "offer" : "FLat 50% Off"
+                    },
+                    {
+                        "image": "./assets/img/handbad.jpg",
+                        "header": "Lavie",
+                        "description" : "Women T-strap Bags",
+                        "price" : "₹1500",
+                        "offer" : "FLat 50% Off"
                     }
                 ]
             },
@@ -70,28 +89,46 @@
                 "title": "Men",
                 "products": [
                     {
-                        "image": "./assets/img/shirts.webp",
-                        "header": "Shirts"
+                        "image": "./assets/img/shirttt.jpg",
+                        "header": "Shirts",
+                        "description" : "Men Full Shirts",
+                        "price" : "₹1500",
+                        "offer" : "FLat 50% Off"
                     },
                     {
                         "image": "./assets/img/tshirts.jpg",
-                        "header": "Tshirts"
+                        "header": "Tshirts",
+                        "description" : "Rounf Neck T-Shirts",
+                        "price" : "₹700",
+                        "offer" : "FLat 50% Off"
                     },
                     {
                         "image": "./assets/img/jeans.jpg",
-                        "header": "Jeans"
+                        "header": "Jeans",
+                        "description" : "Men Tampered Jeans",
+                        "price" : "₹2500",
+                        "offer" : "FLat 50% Off"
                     },
                     {
                         "image": "./assets/img/snt.jpg",
-                        "header": "Shorts and Trousers"
+                        "header": "Shorts and Trousers",
+                        "description" : "Men Regular Shorts",
+                        "price" : "₹1299",
+                        "offer" : "FLat 40% Off"
                     },
                     {
-                        "image": "./assets/img/cashoes.webp",
-                        "header": "Casual Shoes"
+                        "image": "./assets/img/shoes.jpg",
+                        "header": "Casual Shoes",
+                        "description" : "Men Casual Shoes",
+                        "price" : "₹2500",
+                        "offer" : "FLat 30% Off"
                     },
                     {
                         "image": "./assets/img/caps.jpeg",
-                        "header": "Caps"
+                        "header": "Caps",
+                        "description" : "men Regular Caps",
+                        "price" : "₹999",
+                        "offer" : "FLat 70% Off"
                     }
                 ]
             },
