@@ -18,7 +18,7 @@ export default class AppHeaderResp extends LitElement {
         width: 25px;
         height: 25px;
         // margin-top:27px;
-        margin-left: 100px;
+        margin-left: 80px;
       }
       .logoheart {
         display: inline-block;
@@ -26,7 +26,7 @@ export default class AppHeaderResp extends LitElement {
         width: 23px;
         height: 25px;
         // margin-top: 26px;
-        margin-left:5px;
+        margin-left:20px;
       }
 
       .logocart {
@@ -36,7 +36,7 @@ export default class AppHeaderResp extends LitElement {
         height: 24px;
         margin-bottom:50px;
         // margin-top: 28px;
-        margin-left:5px;
+        margin-left:17px;
       
       }
 

@@ -1,5 +1,12 @@
-import { html, LitElement } from 'lit-element';
+import { html,css, LitElement } from 'lit-element';
 export default class AppFooterList extends LitElement{
+    static get styles (){
+        return css`
+        .hea{
+            font-size:17px;
+        }
+        `
+    }
     static get properties(){
         return{
             compData : Object

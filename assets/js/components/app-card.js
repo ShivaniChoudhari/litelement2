@@ -20,16 +20,11 @@ export default class AppCard extends LitElement {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
         width:100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
         margin: 10px auto;
 
-=======
-        margin: 0 auto;
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
-=======
-        margin: 0 auto;
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
+
+        
+
         /* background-color: #f0f0f0 ; */
       }
 

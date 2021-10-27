@@ -3,8 +3,8 @@ export default class AppFooterShopping extends LitElement{
     static get styles(){
         return css `.para
         {
-            color: red;
-            font-size: small;
+            // color: red;
+            font-size: 14px;
         } `
     }
     static get properties(){

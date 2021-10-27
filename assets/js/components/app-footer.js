@@ -16,49 +16,9 @@ export default class AppFooter extends LitElement{
     padding-left:65px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-   padding: 10px;
-   margin-left:100px;
-   margin-right:100px;
-  
-}
-
-.grid-item-1{
-    text-align: left;
-    width:190px;
-
-    font-size: 16px;
-    padding:15px;
-    
-}
-
-.grid-item-2{
-    text-align: left;
-    width:190px;
-    font-size: 16px;
-    padding:15px;
-    
-}
-
-
-.grid-item-3{
-    
-    width:380px;
-    font-size: 16px;
-    padding:15px;
-}
-
-.grid-item-4{
-    padding:15px;
-    width:380px;
-    font-size: 15px;
-    margin-right:100px;
-}
-
 .hea{
     font-size:17px;
+    margin-top:18px;
     
 }
 
@@ -74,64 +34,27 @@ export default class AppFooter extends LitElement{
     padding:20px;
 }
 
-
-
-
-
-@media screen and (max-width: 1060px) {
-
-.grid-item-3{
-    width:250px;
+.span1{
+    padding:20px;
 }
-.grid-item-4{
-    margin-right:0px;
+.span2{
+    padding:20px;
 }
 
-}
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1230px) {
 
-.grid-container{
-    padding:0px;
-}
-.grid-item-3{
-    width:200px;
-    
-}
-.grid-item-4{
-    width:280px;
-    margin-right:0px;
-    
+.span2{
+    display:none;
 }
 }
-
-@media screen and (max-width: 896px) {
-.grid-container{
-    grid-template-columns: auto auto; 
-
-}
-}
-
 
 @media screen and (max-width: 570px) {
 
-.grid-container{
-grid-template-columns: auto;
-padding:0;
-}
-
-.grid-item-3 {
-display:none;
-
-
-.grid-item-4{
+.span1{
     display:none;
-    
 }
 }
-
-
-
 `;
     }
 
@@ -162,7 +85,7 @@ static get properties(){
 </span>
 
 
-<span class="span" >
+<span class="span1" >
     <h6 class="hea">${this.compData.experience.mobile}</h6>
     
             <br>
@@ -174,7 +97,7 @@ static get properties(){
     </span>
 
 
-<span class="span" style="width:360px">
+<span class="span2" style="width:360px">
 
     <h4 class="hea">${this.compData.shopping.ShopHeader}</h4>
     

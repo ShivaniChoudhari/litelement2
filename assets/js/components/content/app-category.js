@@ -27,8 +27,7 @@ export default class AppCategory extends LitElement {
       width: 33.33%;
       
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     @media screen and (max-width: 1050px){
 
       .col-4{
@@ -39,7 +38,14 @@ export default class AppCategory extends LitElement {
 
     }
 
-
+    @media screen and (max-width: 950px){
+      .col-4{
+        width: 50%;
+      }
+      .title{
+        text-align:center;
+      }
+    }
 
 
     @media screen and (max-width: 649px){
@@ -52,17 +58,10 @@ export default class AppCategory extends LitElement {
 
       }
 
-=======
-=======
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
-    @media screen and (max-width: 950px){
-      .col-4{
-        width: 50%;
+      .title{
+        text-align:center;
       }
-<<<<<<< HEAD
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
-=======
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
+    
     }
     `
 
@@ -80,7 +79,7 @@ export default class AppCategory extends LitElement {
 
     return html`
         <app-grid>
-          <h1>${this.category.title}</h1>
+          <h1 class="title">${this.category.title}</h1>
         </app-grid>
 
         <app-grid>
