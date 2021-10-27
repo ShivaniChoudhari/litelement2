@@ -1,53 +1,99 @@
-import { html,css, LitElement } from 'https://unpkg.com/lit-element?module';
+import { html,css, LitElement } from 'lit-element';
 import "../app-card.js"
-export default class AppProduct extends LitElement{
-    static get styles(){
-        return css`.card-text
-        {
-            color:navy;
-            font-weight: bold;
-            font-size: large;
-            text-align: center;
-
-        
-        }
-        .container-fluid {
-            
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction : row;
-        }
-        
-        
+export default class AppProduct extends LitElement {
+    static get styles() {
+      return css`
+        /* .card-text
+          {
+              color:navy;
+              font-weight: bold;
+              font-size: large;
+              text-align: center;
+          
+          
+          }
+          .container-fluid {
+              
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction : column;
+          } */
   
-        `
-    }
-    static get properties(){
-        return{
-            product : Object
+        //code of app card
+  
+        .mainCard {
+          display: flex;
+          /* flex-direction:row; */
+          
         }
+  
+        .card {
+          text-align: center;
+          font-family: arial;
+          flex-wrap:wrap;
+          border: 1px solid lightgray;
+          padding: 0;
+          padding-bottom: 10px;
+          margin: 5px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          /* background-color: #f0f0f0 ; */
+        }
+  
+        .price {
+          font-size: 20px;
+        }
+        .html {
+          display: flex;
+        }
+  
+        a {
+          text-decoration: none;
+          font-size: 22px;  
+          color: black;
+        }
+  
+        h5,
+        h4 {
+          margin: 8px;
+          padding: 0;
+        }
+  
+        /* .txt-decoration {
+          font-size:75%;
+          color: grey;
+          text-decoration: line-through;
+        } */
+  
+        /* .header_font{
+          font-size : 40px;
+          padding-left : 10px;
+        } */
+  
+        /* .mainHeading{
+          font-size: 20px;
+        } */
+      `;
     }
-    render(){
-        return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <div class="container-fluid">
-        
-        <!-- <div class="row"> -->
-            <!-- <div class="col-md-2">   -->
-            <!-- <div class="card" style="width:100%; height:300px">
-                    <a href="#"><img class="card-img-top" src="${this.product.image}" class="rounded-circle" alt="Card image" style="width:100%; height:200px"></a>
-                    <div class="card-body">
-                      <h4 class="card-title" style="text-align: center;">${this.product.header}</h4>
-                      ${this.product.offer ? html`<h5>${this.product.offer}</h5>`  : null}
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <app-card></app-card>
-    </div>    
-        `
-        
+    static get properties() {
+      return {
+        product: Object,
+
+      };
     }
-}
-customElements.define('app-product', AppProduct);
+  
+
+  
+    
+    render() 
+    {
+      const {
+          image, price, description, header, offer,
+      }  = this.product
+      return html`
+      
+      <app-card .title=${header} .description=${description} .price=${price} .img=${image} .offer=${offer}></app-card>
+
+      `;
+    }
+  }
+  customElements.define("app-product", AppProduct);

@@ -65,6 +65,106 @@ export default class AppFooterNew extends LitElement {
     list-style-type:none;
 }
 
+
+@media screen and (max-width: 1410px) {
+
+    *{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .grid-container{
+        margin:0px;
+    }
+    .grid-item-1 .grid-item-2{
+        width: 160px;
+    } 
+    
+    .grid-item-3 .grid-item-4{
+        width:350px;
+    }
+}
+
+
+@media screen and (max-width: 1310px) {
+
+    .grid-container{
+        margin:0px;
+    }
+    .grid-item-1 
+    {
+        width: 140px;
+    } 
+    .grid-item-2{
+        width: 140px;
+    } 
+    
+    .grid-item-3 
+    {
+        width:310px;
+        
+    }
+    .grid-item-4{
+        width:310px;
+        
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    .grid-item-3{
+        width:250px;
+    }
+    .grid-item-4{
+        margin-right:0px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .grid-container{
+        padding:0px;
+    }
+    .grid-item-3{
+        width:200px;
+    }
+    .grid-item-4{
+        width:280px;
+        margin-right:0px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .grid-container{
+        grid-template-columns: auto auto; 
+
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+
+.grid-container{
+  grid-template-columns: auto;
+    padding:0;
+}
+
+.grid-item-3 {
+    
+    padding-left:0px;
+    padding-right:0px;
+    display:none;
+    
+}
+.hea{
+    font-size:14px;
+}
+.grid-item-4{
+    width:280px;
+    margin:0;
+    display:none;
+}
+}
 `;
     }
 

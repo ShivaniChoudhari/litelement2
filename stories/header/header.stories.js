@@ -1,9 +1,9 @@
 import { html } from "lit-element";
-import '../assets/js/components/app-header-new';
+import '../../assets/js/components/app-header-new';
 
 
 export default {
-  title: 'Components/Header',
+  title: 'Components/Header/Normal',
 };
 
 const Header = ({ navlogo, headingMen, headingWomen, headingKids, headingsHome, headingBeauty,headingOffers}) => html`<app-header-new .navlogo=${navlogo} .headingMen=${headingMen} .headingWomen=${headingWomen} .headingKids=${headingKids} .headingHome=${headingsHome} .headingBeauty=${headingBeauty} .headingOffers=${headingOffers}  ></app-header-new>`;
@@ -26,3 +26,4 @@ headingBeauty : "BEAUTY",
 
 
 };
+

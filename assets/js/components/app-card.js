@@ -1,4 +1,4 @@
-import { html, css, LitElement } from "https://unpkg.com/lit-element?module";
+import { html, css, LitElement } from "lit-element";
 
 export default class AppCard extends LitElement {
   static get styles() {
@@ -10,7 +10,7 @@ export default class AppCard extends LitElement {
 
       
       .card {
-        width: 16.5%;
+        // width: 16.5%;
         text-align: center;
         font-family: arial;
         
@@ -18,6 +18,10 @@ export default class AppCard extends LitElement {
         padding:0;
         margin:5px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        width:100%;
+        margin: 10px auto;
+
         /* background-color: #f0f0f0 ; */
       }
 
@@ -113,7 +117,7 @@ export default class AppCard extends LitElement {
 
 
     ${this.img
-        ? html`<img src="${this.img}" alt="John" style="width:100%; height:300px; padding:0px; margin-top:-15px;" />`
+        ? html`<img src="${this.img}" alt="John" style="width:100%; height:300px;" />`
         : null}
     <div class="card-body">
 
@@ -123,7 +127,7 @@ export default class AppCard extends LitElement {
           ? html` <p class="Description" style="font-size:18px; margin:-10px 4px 15px 4px">${this.description}</p> `
           : null}
 
-      ${this.price ? html` <span class="price">₹${this.price}</span>
+      ${this.price ? html` <span class="price">${this.price}</span>
       <span class="txt-decoration">${this.actualPrice}</span>` : null}
 
 
