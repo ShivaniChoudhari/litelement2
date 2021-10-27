@@ -125,15 +125,10 @@ export default class AppCard extends LitElement {
 
 
     ${this.img
-<<<<<<< HEAD
-<<<<<<< HEAD
         ? html`<img src="${this.img}" alt="John" style="width:100%; height:300px;" />`
-=======
-        ? html`<img src="${this.img}" alt="John" style="width:100%; padding:0px;" />`
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
-=======
-        ? html`<img src="${this.img}" alt="John" style="width:100%; padding:0px;" />`
->>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
+
+        
+
         : null}
     <div class="card-body">
 
