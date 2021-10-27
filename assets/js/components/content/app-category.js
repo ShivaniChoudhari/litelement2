@@ -27,6 +27,7 @@ export default class AppCategory extends LitElement {
       width: 33.33%;
       
     }
+<<<<<<< HEAD
     @media screen and (max-width: 1050px){
 
       .col-4{
@@ -50,6 +51,12 @@ export default class AppCategory extends LitElement {
 
       }
 
+=======
+    @media screen and (max-width: 950px){
+      .col-4{
+        width: 50%;
+      }
+>>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
     }
     `
 

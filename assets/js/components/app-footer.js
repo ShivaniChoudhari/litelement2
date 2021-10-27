@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { html, LitElement, css } from 'lit-element';
+=======
+import { html, LitElement } from 'lit-element';
+>>>>>>> ce9daf3bcc8a9691877726d1cb7da7d75410fb7e
 import "./app-footer-list.js";
 import "./app-footer-experience.js";
 import "./app-footer-shopping.js";
