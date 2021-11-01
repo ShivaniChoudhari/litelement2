@@ -1,7 +1,7 @@
 {
     "header": {
         "brand": {
-            "brandLogo": "./assets/img/myntra.jfif"
+            "brandLogo": "./assets/img/myntra.png"
         },
         "navigation": [
             {
@@ -24,6 +24,15 @@
                 "label": "Offers",
                 "link": "/offers"
             }
+        ],
+        "navicons":[
+
+            "https://cdn-icons-png.flaticon.com/512/848/848043.png",
+        
+            "https://cdn-icons-png.flaticon.com/512/1124/1124199.png",
+        
+                "https://cdn-icons-png.flaticon.com/512/833/833300.png"
+        
         ]
     },
     "content": {
@@ -176,13 +185,9 @@
                         "offer": "Upto 40% Off"
                     },
                     {
-
                         "image": "./assets/img/reebok.png",
-
                         "header": "Reebok",
-
                         "offer": "Upto 50% Off"
-
                     }
                 ]
             }
@@ -192,7 +197,7 @@
         "first": {
             "online": {
                 "label": "Online Shopping"
-            },
+                        },
             "navigation": [
                 {
                     "label": "Men",

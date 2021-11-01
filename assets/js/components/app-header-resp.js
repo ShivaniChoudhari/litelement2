@@ -17,7 +17,6 @@ export default class AppHeaderResp extends LitElement {
         vertical-align: top;
         width: 25px;
         height: 25px;
-        // margin-top:27px;
         margin-left: 80px;
       }
       .logoheart {
@@ -35,7 +34,6 @@ export default class AppHeaderResp extends LitElement {
         width: 25px;
         height: 24px;
         margin-bottom:50px;
-        // margin-top: 28px;
         margin-left:17px;
       
       }
@@ -49,7 +47,6 @@ export default class AppHeaderResp extends LitElement {
       }
 
       .navigation-bar input[type="text"] {
-        // margin-top: 25px;
         width: 430px;
         padding: 5px;
         margin-left: 200px;
@@ -227,9 +224,6 @@ export default class AppHeaderResp extends LitElement {
 
       <!-- Trial 2 -->
     <nav class="navigation-bar hamnav">
-
-      
-
       <label for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger"/>
 
@@ -259,9 +253,6 @@ export default class AppHeaderResp extends LitElement {
 
         <input type="text" placeholder="Search for products, brands and more" />
         <input type="button" value="Search" style="height:30px;">
-        
-
-        
         <a href="#">
         ${this.userNavIcon
           ? html`<img src="${this.userNavIcon}" alt="navlogo" class="logoprofile" />`
@@ -282,24 +273,6 @@ export default class AppHeaderResp extends LitElement {
 
 
     </nav>
-
-      <!-- Basic nav bar -->
-      <!-- <ul>
-                        <li><a href="#">${this.home
-        ? html`${this.home}`
-        : null}</a></li>
-                        <li><a href="#">${this.news
-        ? html`${this.news}`
-        : null}</a></li>
-                        <li><a href="#">${this.contact
-        ? html`${this.contact}`
-        : null}</a></li>
-                        <li style="float:right"><a class="active" href="#">${this
-        .about
-        ? html`${this.about}`
-        : null}</a></li>
-                        
-                    </ul> -->
     `;
   }
 }
