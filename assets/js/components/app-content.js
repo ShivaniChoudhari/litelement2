@@ -13,11 +13,11 @@ class AppContent extends LitElement{
     }
   }
   render(){
-    return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    return html `
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <app-wideimg .compData=${this.compData.wideimg }></app-wideimg>
-    <app-slider .compData=${this.compData.slider}></app-slider>
+    <!-- <app-slider .compData=${this.compData.slider}></app-slider> -->
     <!-- <app-categories .compData=${this.compData.categories}></app-categories> -->
     ${this.compData.categories.map((category) => (html `<app-category .category=${(category)}></app-category>`))}
     

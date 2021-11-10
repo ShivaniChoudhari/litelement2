@@ -12,7 +12,7 @@ export default class AppSlider extends LitElement{
     }
   }
     render(){
-        return html `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        return html `
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <div class="jumbotron jumbotron-fluid">

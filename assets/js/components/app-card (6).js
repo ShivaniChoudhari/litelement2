@@ -63,6 +63,9 @@ export default class AppCard extends LitElement {
       }
 
 
+      .checked {
+  color: orange;
+}
 
     `;
   }
@@ -105,6 +108,8 @@ export default class AppCard extends LitElement {
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 
@@ -133,8 +138,8 @@ export default class AppCard extends LitElement {
           ? html` <p class="Description" style="font-size:18px; margin:-10px 4px 15px 4px">${this.description}</p> `
           : null}
 
-      <!-- ${this.price ? html` <span class="price">${this.price}</span>
-      <span class="txt-decoration">${this.actualPrice}</span>` : null} -->
+      ${this.price ? html` <span class="price">${this.price}</span>
+      <span class="txt-decoration">${this.actualPrice}</span>` : null}
 
 
 
@@ -147,6 +152,13 @@ export default class AppCard extends LitElement {
           ? html` <a href="${this.actionLabel}" style="font-size:15px;"><u> ${this.actionLabel} </u></a> `
           : null}
       <br><br>
+
+
+      <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
     </div>
   </div>
 

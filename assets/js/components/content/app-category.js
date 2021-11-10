@@ -16,6 +16,10 @@ export default class AppCategory extends LitElement {
       margin: 0 auto;
     }
 
+    .title{
+      padding-left:60px;
+    }
+
    
 
     .grid-container > .row {

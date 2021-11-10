@@ -36,12 +36,11 @@
         ]
     },
     "content": {
-        "wideimg": "./assets/img/imgb.jpg",
+        "wideimg": "./assets/img/imgbg.jpg",
         "slider": [
             {
-                "slider1": "./assets/img/myntra1.png"
-            },
-            {
+                "slider1": "./assets/img/myntra1.png",
+            
                 "slider2": "./assets/img/myntra2.jpg"
             }
         ],

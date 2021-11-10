@@ -211,7 +211,7 @@ export default class AppHeader extends LitElement{
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   
         <!-- Trial 2 -->
-      <nav class="navigation-bar hamnav" style="margin-top:20px;">
+      <nav class="navigation-bar hamnav" style="margin-top:30px;">
         <label for="hamburger">&#9776;</label>
           <input type="checkbox" id="hamburger"/>
   

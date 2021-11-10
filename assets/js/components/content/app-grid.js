@@ -6,7 +6,7 @@ export default class AppGrid extends LitElement {
     return css` .grid-container {
       display: block;
       padding: 0 15px;
-      max-width: 1200px;
+      max-width: 1300px;
       width: 100%;
       margin: 0 auto;
     }
