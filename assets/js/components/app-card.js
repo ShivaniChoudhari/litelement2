@@ -144,7 +144,7 @@ export default class AppCard extends LitElement {
       
       <br><br>
       ${this.actionLabel
-          ? html` <a href="${this.actionLabel}" style="font-size:15px;"><u> ${this.actionLabel} </u></a> `
+          ? html` <a href="${this.actionLink}" style="font-size:15px;"><u> ${this.actionLabel} </u></a> `
           : null}
       <br><br>
     </div>

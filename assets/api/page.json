@@ -6,7 +6,7 @@
         "navigation": [
             {
                 "label": "Men",
-                "link": "/men"
+                "link": "/category"
             },
             {
                 "label": "Women",
@@ -53,7 +53,8 @@
                         "header": "Biba",
                         "description" : "Printed Khadi dress",
                         "price" : "₹2500",
-                        "offer" : "FLat 50% Off"
+                        "offer" : "FLat 50% Off",
+                        "actionLink" : "/category"
 
                     },
                     {
@@ -190,6 +191,76 @@
                     }
                 ]
             }
+        ]
+    },
+    "content2": {   
+        "wideimg": "./assets/img/imgbg.jpg",
+        "slider": 
+            {
+
+                "slider1": "./assets/img/myntra1.png",
+                "slider2": "./assets/img/myntra2.jpg"
+            }
+            
+        ,
+        "categories": [
+            {
+                "title": "Men",
+                "products": [
+                    {
+                        "image": "./assets/img/shirts1.jpg",
+                        "header": "Roadster",
+                        "description" : "Printed Casual Shirt",
+                        "price" : "₹599",
+                        "offer" : "FLat 50% Off",
+                        "ratings": "./assets/img/ratings5.jpg"
+
+                    },
+                    {
+                        "image": "./assets/img/shirts2.jpg",
+                        "header": "Denis Lingo",
+                        "description" : "Men Slim Fit Casual Shirt",
+                        "price" : "₹554",
+                        "offer" : "FLat 50% Off",
+                        "ratings": "./assets/img/ratings4.jpg"
+
+                    },
+                    {
+                        "image": "./assets/img/shirts3.jpg",
+                        "header": "Campus Sutra",
+                        "description" : "Men Standard Fit Casual Shirt",
+                        "price" : "₹1200",
+                        "offer" : "FLat 40% Off",
+                        "ratings": "./assets/img/ratings4.jpg"
+
+                    },
+                    {
+                        "image": "./assets/img/shirts4.jpg",
+                        "header": "Denis Lingo",
+                        "description" : "Men Slim Fit Casual Shirt",
+                        "price" : "₹3499",
+                        "offer" : "FLat 60% Off",
+                        "ratings": "./assets/img/ratings3.jpg"
+                    },
+                    {
+                        "image": "./assets/img/shirts5.jpg",
+                        "header": "Highlander",
+                        "description" : "Slim Fit Casual Shirt",
+                        "price" : "₹2500",
+                        "offer" : "FLat 50% Off",
+                        "ratings": "./assets/img/ratings5.jpg"
+                    },
+                    {
+                        "image": "./assets/img/shirts6.jpg",
+                        "header": "Highlander",
+                        "description" : "Men Slim Fit Casual Shirt",
+                        "price" : "₹1500",
+                        "offer" : "FLat 50% Off",
+                        "ratings": "./assets/img/ratings3.jpg"
+                    }
+                ]
+            }
+            
         ]
     },
     "footer": {

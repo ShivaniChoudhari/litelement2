@@ -77,6 +77,7 @@ export default class AppProduct extends LitElement {
     static get properties() {
       return {
         product: Object,
+      
 
       };
     }
@@ -87,11 +88,11 @@ export default class AppProduct extends LitElement {
     render() 
     {
       const {
-          image, price, description, header, offer,
+          image, price, description, header, offer, actionLink
       }  = this.product
       return html`
       
-      <app-card .title=${header} .description=${description} .price=${price} .img=${image} .offer=${offer}></app-card>
+      <app-card .title=${header} .description=${description} .price=${price} .img=${image} .offer=${offer} .actionLink=${actionLink}></app-card>
 
       `;
     }

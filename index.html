@@ -9,6 +9,20 @@
 <body>
     <app-shell>
     </app-shell>
+    <script>
+        (function (history) {
+            var pushState = history.pushState;
+            history.pushState = function (state, key, path) {
+                if (typeof history.onpushstate == "function") {
+                    history.onpushstate({ state: state, path: path })
+                }
+                pushState.apply(history, arguments)
+            }
+            window.onpopstate = window.history.onpushstate = function (e) {
+                console.log(e.path)
+            }
+        })(window.history);
+    </script>
     <script type="module" src="/assets/js/app-shell.js">
     </script>
 </body>

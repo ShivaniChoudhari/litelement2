@@ -1,6 +1,6 @@
 import { html, css, LitElement } from "lit-element";
 
-export default class AppCard extends LitElement {
+export default class AppCard2 extends LitElement {
   static get styles() {
     return css`
     .mainCard {
@@ -80,6 +80,7 @@ export default class AppCard extends LitElement {
       actionLabel: { type: String },
       actionLink: { type: String },
       hasBorder: { type: Boolean },
+      ratings:{type: String}
 
 
     };
@@ -97,6 +98,7 @@ export default class AppCard extends LitElement {
     this.actualPrice = ["₹3500"];
     this.actionLabel = "Shop Now";
     this.actionLink = "#";
+    this.ratings=".assets/img/ratings5.jpg";
 
 
 
@@ -126,9 +128,6 @@ export default class AppCard extends LitElement {
 
     ${this.img
         ? html`<img src="${this.img}" alt="John" style="width:100%; height:300px;" />`
-
-        
-
         : null}
     <div class="card-body">
 
@@ -154,18 +153,28 @@ export default class AppCard extends LitElement {
       <br><br>
 
 
-      <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+      <!-- <span><img src="https://media.istockphoto.com/vectors/star-icon-vector-id1129712692?k=20&m=1129712692&s=612x612&w=0&h=LHyR3dyiTXewDgGh6HGL4Hvky1s4veeEkr3VE05N5ww=" style="width:15px;height:15px"></span>
+      <span><img src="https://media.istockphoto.com/vectors/star-icon-vector-id1129712692?k=20&m=1129712692&s=612x612&w=0&h=LHyR3dyiTXewDgGh6HGL4Hvky1s4veeEkr3VE05N5ww=" style="width:15px;height:15px"></span>
+
+      <span><img src="https://media.istockphoto.com/vectors/star-icon-vector-id1129712692?k=20&m=1129712692&s=612x612&w=0&h=LHyR3dyiTXewDgGh6HGL4Hvky1s4veeEkr3VE05N5ww=" style="width:15px;height:15px"></span>
+
+      <span><img src="https://media.istockphoto.com/vectors/star-icon-vector-id1129712692?k=20&m=1129712692&s=612x612&w=0&h=LHyR3dyiTXewDgGh6HGL4Hvky1s4veeEkr3VE05N5ww=" style="width:15px;height:15px"></span>
+
+      <span><img src="https://cdn-icons-png.flaticon.com/128/1828/1828970.png" style="width:15px;height:15px;"></span> -->
+
+      ${this.ratings
+        ? html`<img src="${this.ratings}" alt="John" style="width:100px; " />`
+
+        
+
+        : null}
     </div>
   </div>
-
+<br>
 </div>
 
       
     `;
   }
 }
-customElements.define("app-card", AppCard);
+customElements.define("app-card2", AppCard2);

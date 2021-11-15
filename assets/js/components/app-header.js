@@ -4,7 +4,15 @@ export default class AppHeader extends LitElement{
     static get styles() {
       return css`
 
-        
+      .navigation-bar {
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0;
+        background-color:#fff;
+        height:inherit;
+        padding-top:20px; 
+        width:100%;
+      }
+
         .logo {
           display: inline-block;
           vertical-align: top;
@@ -40,7 +48,9 @@ export default class AppHeader extends LitElement{
         
         }
   
-        
+        .ul{
+          text-decoration:none;
+        }
   
         a {
           margin-left:7px;
@@ -211,7 +221,7 @@ export default class AppHeader extends LitElement{
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   
         <!-- Trial 2 -->
-      <nav class="navigation-bar hamnav" style="margin-top:30px;">
+      <nav class="navigation-bar hamnav">
         <label for="hamburger">&#9776;</label>
           <input type="checkbox" id="hamburger"/>
   
@@ -222,9 +232,11 @@ export default class AppHeader extends LitElement{
             </a>
   
           <span id="hamitems">
-          ${this.compData.navigation.map((nav) => (html`<a href="${nav.link}">${nav.label}</a>&nbsp;&nbsp;&nbsp;&nbsp;`))}
-          
-        
+          <!-- ${this.compData.navigation.map((nav) => (html`<a href="${nav.link}">${nav.label}</a>&nbsp;&nbsp;&nbsp;&nbsp;`))} -->
+            
+          ${this.compData.navigation.map((nav) => (html`<a @click=${() => history.pushState(null, nav.label, nav.link)}>${nav.label}</a>`))}
+
+            
           
           </span>
   
